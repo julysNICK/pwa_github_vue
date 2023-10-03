@@ -27,7 +27,7 @@
 
 
 <script>
-import { octokitMixin } from "../../mixins/octokit";
+import { octokitMixin } from "../../mixins/octokitMixin";
 import IssueComments from "./issue/Comments.vue";
 export default {
   name: "RepoIssues",

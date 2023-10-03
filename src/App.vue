@@ -1,15 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <div>
+    <h1>GitHub App</h1>
+    <GitHubTokenForm />
+    <UserComponent />
+    <ReposUser />
+  </div>
 </template>
 
 <script>
-
+import GitHubTokenForm from './components/GitHubTokenForm.vue';
+import ReposUser from './components/Repos.vue';
+import UserComponent from './components/User.vue';
 
 export default {
   name: 'App',
-  // components: {
-  //   HelloWorld
-  // }
+  components: {
+    GitHubTokenForm,
+    ReposUser,
+    UserComponent
+  }
 }
 </script>
 

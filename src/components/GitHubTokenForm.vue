@@ -20,7 +20,7 @@ export default {
   name: "GitHubTokenForm",
   data() {
     return {
-      token: ""
+      token: "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"
     };
   },
 
